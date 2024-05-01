@@ -1,0 +1,98 @@
+
+body {
+    background-image: url("4k-tech-8ud1fgpt22qs67c7.jpg");
+}
+
+label
+{
+    font-weight: bold;
+    font-size: larger;
+    color: #000000;
+    text-shadow:
+            0 0 7px #0fa,
+            0 0 10px #0fa,
+            0 0 21px #0fa,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: 	#008080;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.registration-form {
+    font-family: "Times New Roman", sans-serif;
+
+}
+
+.registration-form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0fa;
+    text-shadow:
+            0 0 7px #0fa,
+            0 0 10px #0fa,
+            0 0 21px #0fa,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group input[type="password"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.Country-Code
+{
+    padding: 1px;
+
+}

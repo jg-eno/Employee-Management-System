@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    background-color: #f2f2f2;
+}
+h1.head
+{
+    text-align: left;
+    margin-bottom: 20px;
+    color: #008080;
+    text-shadow:
+            0 0 7px #0fa,
+            0 0 10px #00ffaa,
+            0 0 21px #0fa,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #A8A9A9;
+}
+.btn {
+    display: block;
+    width: 15%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.butn
+{
+    display: block;
+    width: 15%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0;
+    position: absolute;
+    top: 81%;
+    left: 43%;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+div{
+    display: block;
+    margin-bottom: 5px;
+}

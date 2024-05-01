@@ -1,0 +1,18 @@
+create database startup_project;
+use employees;
+CREATE TABLE IF NOT EXISTS employees (
+    `ID` INT(11) AUTO_INCREMENT PRIMARY KEY,
+    `First_Name` VARCHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    `Last_Name` VARCHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    `Email` VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    `Address` VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    `Country` VARCHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    `Date_Of_Birth` DATE NOT NULL,
+    `Gender` VARCHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    `Country_Code` VARCHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    `Phone_Number` VARCHAR(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    `Designation` VARCHAR(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+    `Metric_Rating` INT(32) DEFAULT NULL,
+    `PASSWORD` VARCHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    `Task` TEXT
+);
